@@ -20,10 +20,11 @@ textarea{
 
 .center{
 	text-align: center;
-}
- .center h1{
+	h1 {
  	margin-bottom: 10px;
+	}
 }
+ 
 
 /*fuentes o tipografias*/
 h1, h2, h3, h4, h5, h6 {
@@ -60,34 +61,37 @@ p{
 	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
-}
-#logo:hover{
+	&:hover{
 	color: #fff;
-	text-decoration: none;
+	text-decoration: none;;
+	}
 }
 
+
 /*pie de pagina*/
-footer{
+footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top:  1px;
 	solid: #eaeaea;
 	color:  #999;
-}
-footer a{
+	a {
 	color: #555;
-}
-footer a:hover{
+	&:hover {
 	color: #222;
-}
-footer small{
+		}
+	}
+	small{
 	float: left;
-}
-footer ul{
+	}
+	ul{
 	float: right;
 	list-style: none;
-} 
-footer ul li{
-float: left;
-margin-left: 10px;
+	li  {
+	float: left;
+	margin-left: 10px;
+		}
+	} 
 }
+
+
